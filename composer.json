@@ -1,0 +1,32 @@
+{
+    "name": "timatanga/utilities",
+    "description": "The timatanga Utilities package. Common utilities for PHP applications",
+    "type": "library",
+    "require": {
+        "php": "^8.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "10.0.x-dev"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "timatanga\\Utilities\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mark Fluehmann",
+            "email": "dbiz.apps@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
